@@ -362,14 +362,36 @@ ul li {
 
 }
 
-
 .about-margin{
 
     margin-left: 30% !important;
 
 }
 
+/* Responsive adjustments for mobile devices */
 
+@media (max-width: 576px) {
+    .de_count h3 {
+        font-size: 1.8rem;
+    }
+
+    .de_count h4 {
+        font-size: 1rem;
+        line-height: 20px;
+    }
+
+    .subtitle.s2 {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.95rem;
+    }
+}
 
 /* Client Section */
 
